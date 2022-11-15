@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@100&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    
+    position: fixed;
+    
+    
+}
+.header a {
+    
+    text-decoration: none;
+    color: white;
+    justify-content: right;
+    
+    
+}
+.headcontent {
+    display: flex;
+    justify-content: space-between;
+    margin: 22px 200px 0 200px;
+}
+
+.rheader {
+    margin-top: 5px;
+    
+}
+.rheader a {
+    
+    font-weight:lighter;
+    transition: 1s;
+    margin-left: 30px;
+}
+.rheader :hover {
+    color: orange;
+    transition: 0.5s;
+}
+
+
+.block1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: gray;
+    background-image: url(img/gorod_zdaniia_arhitektura_150525_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.block1-content {
+    display: flex;
+    margin: 200px
+}
+.block1-left {
+    width: 60%;
+}
+.block1l-content {
+    margin-top: 15%;
+    margin-right: 10%;
+    background-color: rgba(214, 209, 209, 0.5);
+    color: white;
+}
+
+.block1l-content img {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    }
+
+.block1l-content h1 {
+    font-size: 40px;
+    margin-right: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    
+}
+.block1l-content h2{
+color: white;
+margin-left: 30px;
+}
+.block1l-content p {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color:black;
+    margin-left: 30px;
+    margin-right: 30%;
+    margin-top: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.block1l-content h3 {
+    border: 1px solid white;
+    display: inline-block;
+    
+    margin-top: 33px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color: white;
+    transition: 1s;
+
+}
+
+.block1l-content h3:hover {
+    background-color: orange;
+    transition: 0.5s;
+}
+
+.block1-right {
+    width: 40%;
+}
+.block1-content-right {
+display: flex;
+}
+.username {
+    margin: 30% 0 0 30%;
+    width:400px;
+    height: 400px;
+    text-align: center;
+    background-color: white;
+    
+}
+
+.username H2 {
+    background-color: rgb(236, 236, 236);
+    margin-bottom: 30px;
+    padding: 15px 0 15px 0;
+}
+.username span {
+    color: orange;
+}
+
+.username input {
+width: 70%;
+height: 25px;
+margin: 20px 0 30px 0;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+border-color:  rgb(236, 236, 236);
+}
+.username h3 {
+    background-color: orange;
+    margin-top: 30px;
+    padding: 15px 0 15px 0;
+    color:white;
+    
+}
+.username a {
+    text-decoration: none;
+}
+.box {
+
+}
+
+
+.block2 {
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 5px 10px black;
+    
+}
+.block2-content {
+    display: flex;
+    margin: 0 200px 0 200px;
+    font-size: small;
+    padding-top: 20px;
+}
+.block2-left {
+    width: 35%;
+
+}
+.block2-right {
+    width: 75%;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.block3 {
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+    height: 100vh;
+}
+.block3-content {
+    padding: 200px 0 200px 0;
+    margin: 0 200px 0 200px;
+    display: flex;
+}
+.block3-left {
+    width: 25%;
+}
+.block3-left button {
+    width: 200px;
+    height: 200px;
+}
+.block3-left button:focus {
+    background-color: orange;
+}
+.block3-middle {
+    padding-right: 100px;
+    width: 40%;
+}
+#btntab1 {
+    font-size:30px;
+    font-weight: 800;
+}
+.block3-middle h2 {
+margin-bottom: 60px;
+}
+.block3-middle p {
+margin-top: 30px;
+}
+
+
+.block3-middle h3 {
+    padding: 15px;
+    background-color: orange;
+    margin-top: 80px;
+    display: inline-block;
+    color: white;
+    transition: 1s;
+}
+.block3-middle h3:hover {
+    border: 2px solid black;
+    transition: 0.5s;
+}
+.block3-middle a {
+    text-decoration: none;
+    
+}
+.block3-right {
+    padding-top: 40px;
+    width: 35%;
+}
+.block4 {
+    width: 100%;
+    height: 100vh;
+}
+.block4-content {
+    margin: 0 200px 0 200px;
+    padding: 300px 0 200px 0;
+    display: flex;
+}
+.block4-left {
+    width: 50%;
+}
+.block4img {
+    background-image: url(img/3600x2400_856487_[www.ArtFile.ru].jpg);
+    width: 500px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 20px 0 0;
+    box-shadow: 1px 5px 10px black;
+}
+.block4-right {
+    width: 50%;
+}
+.block4r-up {
+    height: 50%;
+    margin-bottom: 20px;
+}
+.block4r-up h2 {
+    font-weight: 900;
+    font-size: 50px
+}
+.block4r-up h3 {
+color: orange;
+margin: 20px 0 30px 0;
+}
+.block4r-up p {
+    color: grey;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+.block4r-down {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.block4-con1 {
+width: 100%;
+display: flex;
+}
+.block4-con2 {
+    width: 100%;
+    display: flex;
+}
+.box4 {
+}
+
+.block4u-gdeto1 {
+    width: 20%;
+    
+}
+.block4u-gdeto2 {
+width: 80%;
+padding-top: 10px;
+}
+
+.block4r-gdeto1 {
+    width: 20%;
+    background: white;
+    
+    
+}
+.block4r-gdeto2 {
+    width: 80%;
+    padding-top: 10px;
+}
+
+.block4-gdeto-img1 {
+    height: 50px;
+    width: 50px;
+    border: 0.1875em solid orange;
+    border-radius: 50%;
+    margin-top: 10px;
+    
+    
+}
+
+.block4-gdeto-img2 {
+    height: 50px;
+    width: 50px;
+    border: 0.1875em solid orange;
+    border-radius: 50%;
+    margin-top: 20px;
+    
+}
+
+.block4-gdeto-img1 img, .block4-gdeto-img2 img {
+    padding-top: 17px;
+    padding-left: 17px;
+}
+
+.block5 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(224, 224, 224);;
+}
+.block5-content {
+    margin: 0 200px 0 200px;
+    padding: 300px 0 200px 0;
+    display: flex;
+}
+.block5-left {
+    width: 50%;
+}
+
+.block5-left h2 {
+font-weight: 900;
+font-size: 40px;
+}
+.block5-left h3 {
+    margin: 30px 0 50px 0;
+color: orange;
+}
+.block5-left p {
+    margin-right: 15%;
+}
+.block5-right {
+    height: 50%;
+}
+.block5-img {
+    background-image: url(img/2.jpg);
+    width: 700px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    box-shadow: 1px 5px 10px black;
+}
+
+.block6 {
+    width: 100%;
+    height: 100vh;
+}
+.block6-content {
+    margin: 0 200px 0 200px;
+    padding: 300px 0 200px 0;
+}
+.block6-up {
+    text-align: center;
+    padding-bottom: 100px;
+}
+.block6-up h2 {
+    font-size: 50px;
+font-weight: 800;
+}
+.block6-up h3 {
+color: orange;
+margin: 20px 0 40px 0;
+}
+.block6-up p {
+color: gray;
+}
+.block6-down {
+    display: flex;
+}
+.block6d-left {
+    width: 33%;
+}
+.block6lup {
+    
+}
+.block6limage {
+    height: 50px;
+    width: 50px;
+    border: 0.1875em solid orange;
+    border-radius: 50%;
+    margin-left: 43%;
+}
+.block6limage img {
+    padding-left: 16px;
+    padding-top: 11px    ;
+}
+
+.block6ldown {
+    text-align: center  ;
+    margin-top: 30px;
+}
+.block6ldown p {
+    margin-top: 30px;
+    color: gray;
+}
+.block6d-middle {
+    width: 33%;
+}
+.block6mup {
+    
+}
+.block6mimage {
+    height: 50px;
+    width: 50px;
+    border: 0.1875em solid orange;
+    border-radius: 50%;
+    margin-left: 43%;
+}
+.block6mimage img {
+    padding-left: 7px;
+    padding-top: 14px    ;
+}
+.block6mdown {
+    text-align: center  ;
+    margin-top: 30px;
+}
+.block6mdown p {
+    margin-top: 30px;
+    color: gray;
+}
+.block6d-right {
+    width: 33%;
+}
+.block6rup {
+    
+}
+.block6rimage {
+    height: 50px;
+    width: 50px;
+    border: 0.1875em solid orange;
+    border-radius: 50%;
+    margin-left: 43%;
+}
+.block6rimage img {
+    padding-left: 16px;
+    padding-top: 10px  
+}
+
+.block6rdown {
+    text-align: center  ;
+    margin-top: 30px;
+}
+.block6rdown p {
+    margin-top: 30px;
+    color: gray;
+}
+.b6dt h3{
+    text-align: center;
+}
